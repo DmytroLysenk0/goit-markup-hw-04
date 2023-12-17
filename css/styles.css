@@ -627,18 +627,6 @@ img {
   letter-spacing: 0.32px;
 }
 
-/* .social-list {
-  display: flex;
-  color: #ffffff;
-  justify-content: center;
-
-  font-family: Roboto;
-  
-  line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
-
-outline: 2px solid #31d0aa;
-
 .text-social {
   font-weight: 500;
   font-size: 16px;
@@ -655,6 +643,7 @@ outline: 2px solid #31d0aa;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-sicial:hover {
   background-color: #31d0aa;
